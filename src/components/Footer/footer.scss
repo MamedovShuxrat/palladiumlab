@@ -1,0 +1,114 @@
+@import '../../assets/styles/variables.scss';
+
+.footer {
+    padding: 136px 170px 0;
+
+    &__list {
+        display: flex;
+        justify-content: space-between;
+        margin-top: 48px;
+    }
+
+    &__item {
+        color: $main-dark;
+        @include fsz14;
+
+
+        margin-bottom: 8px;
+    }
+
+    &__link {
+        font-family: $second-fonts;
+        display: block;
+        margin-bottom: 48px;
+        border-radius: 2px;
+        @include fsz13;
+        overflow: hidden;
+
+
+    }
+
+    &__form {
+        display: flex;
+        flex-direction: column;
+        margin-top: 25px;
+
+        label {
+            color: $main-dark;
+            font-family: $second-fonts;
+            font-size: 9px;
+            font-weight: 500;
+            line-height: 12px;
+        }
+
+        input {
+            border: none;
+            color: rgb(144, 144, 144);
+            font-family: $second-fonts;
+            font-size: 13px;
+            font-weight: 400;
+            line-height: 24px;
+            padding-bottom: 3px;
+            border-bottom: 1px solid rgb(144, 144, 144);
+            margin-bottom: 30px;
+            outline: none;
+
+            &:focus {
+                border: dashed 1px;
+            }
+        }
+    }
+
+    &__agree {
+        color: rgb(144, 144, 144);
+        font-family: $second-fonts;
+        font-size: 9px;
+        font-weight: 500;
+        line-height: 12px;
+        margin-bottom: 30px;
+
+        a {
+            color: rgb(34, 34, 34);
+            border-bottom: 1px dashed $main-dark;
+
+        }
+    }
+
+    &__message-wrapper {
+        position: relative;
+
+        button {
+            position: absolute;
+            right: 0;
+            top: 14px;
+        }
+
+        label {
+            color: $main-dark;
+            font-family: $second-fonts;
+            font-size: 9px;
+            font-weight: 500;
+            line-height: 12px;
+            display: block;
+        }
+
+        input {
+            border: none;
+            color: rgb(144, 144, 144);
+            font-family: $second-fonts;
+            font-size: 13px;
+            font-weight: 400;
+            line-height: 24px;
+            padding-bottom: 3px;
+            border-bottom: 1px solid rgb(144, 144, 144);
+            margin-bottom: 30px;
+            outline: none;
+            display: block;
+            width: 100%;
+
+            &:focus {
+                border: dashed 1px;
+            }
+        }
+    }
+}

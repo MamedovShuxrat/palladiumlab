@@ -1,0 +1,33 @@
+@mixin title {
+    font-size: clamp(40px, 4vw, 64px);
+    font-family: 'Gilroy';
+    font-weight: 800;
+    line-height: 72px;
+    text-align: center;
+}
+
+@mixin subtitle {
+    font-size: clamp(20px, 4vw, 32px);
+    font-family: 'Gilroy';
+    font-weight: 800;
+    line-height: 40px;
+}
+
+@mixin fsz20 {
+    font-size: 20px;
+    font-weight: 800;
+    line-height: 25px;
+}
+
+
+@mixin fsz14 {
+    font-size: 14px;
+    font-weight: 800;
+    line-height: 20px;
+}
+
+@mixin fsz13 {
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 24px;
+}

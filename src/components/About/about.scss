@@ -1,0 +1,51 @@
+@import '../../assets/styles/variables.scss';
+
+
+.about {
+    padding-top: 64px;
+
+
+    &__btn {
+        display: block;
+        margin: 40px auto 0;
+    }
+
+
+    &__content {
+        margin-top: 84px;
+        border: 1px solid;
+        padding: 173px 0 22px;
+        background-image: url('../../assets/images/about/about-bg-1.png');
+        background-color: rgba(0, 0, 0, 0.2);
+        background-size: cover;
+        background-position: center;
+        background-blend-mode: overlay;
+    }
+
+    &__list {
+        display: flex;
+        justify-content: space-between;
+        border-top: 1px solid rgba(255, 255, 255, 0.3);
+        border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+
+    }
+
+    &__item {
+        border-right: 1px solid rgba(255, 255, 255, 0.3);
+        border-collapse: collapse;
+        padding: 30px 0;
+        width: 25%;
+        text-align: center;
+        color: $main-white;
+        @include fsz20;
+
+        &:last-child {
+            border-right: none;
+        }
+
+    }
+
+    &__circle-btn {
+        margin: 23px auto 0;
+    }
+}
