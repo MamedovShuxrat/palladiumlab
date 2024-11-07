@@ -25,7 +25,7 @@ const Footer = () => {
                             <a href="#" className="social__link social__link-vk">
                                 <img src={vk} alt="vk logo" />
                             </a>
-                            <a href="#" className="social__link">
+                            <a href="#" className="social__link social__link-yandex">
                                 <img src={yandex} alt="yandex logo" />
                             </a>
                         </div>

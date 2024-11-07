@@ -95,6 +95,12 @@
             }
         }
 
+        &-yandex {
+            &:hover {
+                transform: rotateY(180deg)
+            }
+        }
+
         img {
             width: 100%;
             height: 100%;
