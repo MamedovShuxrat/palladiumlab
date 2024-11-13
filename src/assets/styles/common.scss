@@ -9,6 +9,8 @@
 .title {
     @include title;
     color: $main-dark;
+    position: relative;
+    z-index: 10;
 }
 
 .subtitle {
@@ -37,6 +39,11 @@
     text-align: center;
 }
 
+.outline-text-white {
+    -webkit-text-stroke: 1px #fff;
+
+}
+
 .button {
     border: 1px solid rgba(34, 34, 34, 0.3);
     padding: 10px 48px;
@@ -58,6 +65,15 @@
 
     &:hover::before {
         left: calc(100% - 14px);
+    }
+}
+
+.button-white {
+    color: $main-white;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+
+    &::before {
+        background-color: $main-white;
     }
 }
 

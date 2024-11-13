@@ -1,2 +1,6 @@
-https://www.figma.com/design/IDdDBix18rY1J8Ef9UzEBh/Test?node-id=0-1&node-type=canvas&t=scAdxyQqhcFo3i3Q-0
-Mожете выполнить на любом стеке технологий и любой объем.
+# Тестовое задание от Palladiumlab
+> [!TIP]
+> Mожно выполнить на любом стеке технологий и любой объем.
+[Макет](https://www.figma.com/design/IDdDBix18rY1J8Ef9UzEBh/Test?node-id=0-1&node-type=canvas&t=scAdxyQqhcFo3i3Q-0)
+
+# Веб-приложение, разработанно на React, предназначенное для предоставления информации о услугах по ремонту и дизайну интерьеров. (без адаптивной версии)
