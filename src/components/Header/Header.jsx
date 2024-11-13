@@ -1,7 +1,7 @@
 import React from 'react'
 import geo from '../../assets/images/icons/MapMarker.svg'
 import phone from '../../assets/images/icons/Vector.svg'
-import logo from '../../assets/images/icons/logo.svg'
+import logo from '../../assets/images/icons/Logo.svg'
 import './header.scss'
 
 const Header = () => {
